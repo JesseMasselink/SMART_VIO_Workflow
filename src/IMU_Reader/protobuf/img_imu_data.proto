@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message ImuData {
+	float acc_x = 1;
+	float acc_y = 2;
+	float acc_z = 3;
+	
+	float ang_x = 4;
+	float ang_y = 5;
+	float ang_z = 6;
+	
+	float imu_timestamp = 7;
+}
+
+message ImgData {
+	float camera_timestamp = 1;
+}

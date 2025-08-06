@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message ImuData {
+	float acc_x = 1;
+	float acc_y = 2;
+	float acc_z = 3;
+}
+
+
